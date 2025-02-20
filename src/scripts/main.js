@@ -340,7 +340,7 @@ let totalPlacar = 0;
 function cronometroJogo(){
     if(!jogoAtivo){
         jogoAtivo = true;
-        tempoRestante = 300;
+        tempoRestante = 30;
         console.log("Jogo iniciado!");
 
         // Cria um intervalo para diminuir o tempo a cada segundo
