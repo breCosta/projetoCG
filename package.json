@@ -1,0 +1,16 @@
+{
+  "name": "3d-target-shooter",
+  "version": "1.0.0",
+  "description": "Jogo de tiro ao alvo 3D",
+  "main": "./src/scripts/main.js",
+  "scripts": {
+    "start": "live-server --open=src/index.html"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "3d-target-shooter": "file:"
+  },
+  "type": "module"
+}
